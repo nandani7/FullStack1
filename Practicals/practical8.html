@@ -11,6 +11,9 @@
         padding: 0px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;}
+    html{
+        scroll-behavior: smooth;
+    }
     h3{
         color: black;
         text-align: center;
@@ -18,14 +21,14 @@
         margin-top: 100px;
     }
     #content{
-        padding: 1%;
+        padding: 0px 1% 1%;
         width: 100vw;
         height: 100vh;
         background-color: white;
     }
     #header{
         background-color: gray;
-            height: 42px;
+            height: 55px;
             color: white;
             display: flex;
             justify-content: center;
@@ -42,6 +45,7 @@
         position: fixed;
         width: 100vw;
         top: 0px;
+        z-index: 1;
         margin-bottom: 15px;
     }
     ul#nav li{
@@ -105,23 +109,20 @@
     }
     #Section2Left{
         padding: 4px;
-        width: 53%;
+        width: 49.5%;
         background-color: gray;
         float: left;
-        height: 412px;
+        height: 420px;
         color: white;
             margin-bottom:15px;
     }
     #Section2Right{
-        width: 46%;
+        width: 49.5%;
         float: right;        
     }
     #article img{
         width: 100%;
         height: 130px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             margin-bottom: 15px;
     }
     #Section3::after{
@@ -182,7 +183,7 @@
     <div id="content">
     <div id="header">
     <ul id="nav">
-        <li><a href="../index.html">Home</a></li>
+        <li><a href="#banner">Home</a></li>
         <li><a href="#Section2">About Us</a></li>
         <li><a href="#Section1">Team</a></li>
         <li><a href="#Section3">Technologies</a></li>
@@ -207,7 +208,7 @@
         <h3>About Us</h3>
     <div id="Section2Left">
         <h2 style="margin-bottom: 4px;">About Us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur sequi, voluptatibus quis debitis maxime obcaecati officiis saepe non quas reprehenderit? Praesentium veniam eaque iusto, deserunt maiores sed exercitationem eveniet voluptas vel quam. Commodi repellat blanditiis quibusdam, reiciendis possimus, animi explicabo nemo, dignissimos aperiam assumenda fuga consequuntur nesciunt corrupti aspernatur totam adipisci doloribus quod nam labore quos magnam perspiciatis minus quisquam? Nam maiores similique omnis blanditiis architecto quibusdam veritatis, quam dolorem perspiciatis rerum totam magnam tempore dolore accusantium aliquid vero debitis quasi minus magni commodi, ullam temporibus nulla! Impedit deleniti voluptas aut nihil inventore rem eveniet! Nostrum, tenetur? Saepe, odit tempore. Deserunt, voluptatem? Odit necessitatibus cum aspernatur ratione omnis eius temporibus dolorum. Nihil corporis quisquam reiciendis, blanditiis iusto, sed itaque et repellendus pariatur quos odio! Nostrum nemo doloribus deleniti totam cupiditate accusamus nisi aperiam. Unde quae in, ipsa aliquam explicabo illo esse quaerat sed eius optio porro, libero nam dolorem nisi fuga. Explicabo blanditiis nulla illo in amet magni eius pariatur expedita ratione illum.</p>
+        <p>Lorem ipsum dolor sit amet quas reprehenderit? Praesentium veniam eaque iusto, deserunt maiores sed exercitationem eveniet voluptas vel quam. Commodi repellat blanditiis quibusdam, reiciendis possimus, animi explicabo nemo, dignissimos aperiam assumenda fuga consequuntur nesciunt corrupti aspernatur totam adipisci doloribus quod nam labore quos magnam perspiciatis minus quisquam? Nam maiores similique omnis blanditiis architecto quibusdam veritatis, quam dolorem perspiciatis rerum totam magnam tempore dolore accusantium aliquid vero debitis quasi minus magni commodi, ullam temporibus nulla! Impedit deleniti voluptas aut nihil inventore rem eveniet! Nostrum, tenetur? Saepe, odit tempore. Deserunt, voluptatem? Odit necessitatibus cum aspernatur ratione omnis eius temporibus dolorum. Nihil corporis quisquam reiciendis, blanditiis iusto, sed itaque et repellendus pariatur quos odio! Nostrum nemo doloribus deleniti totam cupiditate accusamus nisi aperiam. Unde quae in, ipsa aliquam explicabo illo esse quaerat sed eius optio porro, libero nam dolorem nisi fuga. Explicabo blanditiis nulla illo in amet magni eius pariatur expedita ratione illum.</p>
     </div>
     <div id="Section2Right">
         <div id="article"><img src="../img/p1.jpg" alt="Project1"></div>
