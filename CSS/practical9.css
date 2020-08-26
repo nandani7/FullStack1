@@ -308,3 +308,8 @@ ul.nav li a:hover, .show-button:hover, .hide-button:hover{
         width: 100%;
     }
 }
+@media(max-width: 414px){    
+    #Footer{
+        height: 110px;
+    }
+}
