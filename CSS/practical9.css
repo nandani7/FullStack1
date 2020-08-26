@@ -234,7 +234,7 @@ ul.nav li a:hover, .show-button:hover, .hide-button:hover{
 }
 @media(max-width:946px){
     html{
-        scroll-padding: 520px;
+        scroll-padding: 480px;
     }
     .show-button, .hide-button{
         display: block;
