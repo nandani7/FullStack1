@@ -282,7 +282,10 @@ ul.nav li a:hover, .show-button:hover, .hide-button:hover{
         width: 100%;
     }
     #Section2Right{
-        width: 100%
+        width: 100%;
+    }
+    #article img{
+        width: 100%;
     }
     .box{
         width: 260px;
