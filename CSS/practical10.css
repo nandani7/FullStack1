@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #747070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 20px;
+}
+.header img{
+    height: 70px;
+    margin-right: 5px;
+}
+.header h1{
+    line-height: 70px;
+    color: white;
+}
+.content{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.content img{
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+}
+.content p{
+    text-align: justify;
+    margin-top: 5px;
+}
+.side-bar{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    top: 70px;
+    background-color: #747070;
+    left: -100%;
+    transition: 0.5s;
+}
+.side-bar ul{
+    list-style: none;
+}
+.side-bar ul li{
+    border-bottom: 2px solid rgba(255, 255, 255, .3);
+}
+.side-bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px;
+    display: block;
+    transition: .3s;
+}
+a i{
+    margin-right: 10px;
+}
+.side-bar ul li a:hover{
+    border-left: 5px solid rgba(255, 255, 255, 0.852);
+    background-color: rgba(255, 255, 255, 0.096) ;
+}
+.social{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    border-top: 2px solid rgba(255, 255, 255, .3);
+    padding: 5px 0px;
+    bottom: 0px;    
+    position: fixed;
+}
+.social i{
+    color: white;
+    font-size: 30px;
+}
+.social a:hover{
+   margin-top: 2px;
+}
+.show-button, .hide-button{
+    font-size: 30px;
+    color: white;
+    top: 20px;
+    left: 20px;
+    position: fixed;
+    transition: 0.2s;
+}
+#chk
+{display: none;}
+.hide-button{
+    opacity: 0;
+}
+#chk:checked ~ .side-bar{
+    left: 0%;
+}
+#chk:checked ~ .show-button{
+    display: none;
+}
+#chk:checked ~ .hide-button{
+    opacity: 1;
+}
+#chk:checked ~ .content{
+    width: 80%;
+    float: right;
+    transition: 0.7s;
+}
+@media(max-width:854px){
+    .side-bar{
+        width: 100%;
+        text-align: center;
+    }
+    .side-bar ul li a:hover{
+        border-left: 10px solid rgba(255, 255, 255, 0.852);
+    }
+    .header h1{
+        display: none;
+    }
+    .social{
+        width: 100%;
+    }
+}
+@media(max-width:340px){
+    .show-button, .hide-button{
+        font-size: 25px;
+    }
+}
