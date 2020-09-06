@@ -76,7 +76,8 @@ h2 a:hover{
 .logos a{
     margin: 10px;
     border-radius: 50%;
-    background-color: gray;
+    background-color: #9e9e9e;
+    color: gray;
     width: 50px;
     text-align: center;
     height: 50px;
@@ -109,7 +110,9 @@ background-color: red;
 color: white;
 box-shadow: 5px 5px 5px black;
 }
-
+.logos a i:hover{
+    color: white;
+}
 .github:hover {
 background-color: black;
 color: white;
