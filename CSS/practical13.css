@@ -141,6 +141,7 @@ box-shadow: 5px 5px 5px black;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(24, 24, 53);
     color: lightgray;
     font-size: 20px;
     font-weight: bold;
