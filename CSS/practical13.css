@@ -42,6 +42,9 @@ footer{
     text-transform: uppercase;
     margin-bottom: 3px;
 }
+.up i{
+    padding: 7px;
+}
 .upleft{
     width: 30%;
     float: left;
@@ -55,7 +58,6 @@ footer{
 }
 .up a:hover{
     color: orange;
-    text-shadow: 1px 1px 1px orange;
 }
 .middle{
     display: flex;
@@ -134,19 +136,42 @@ background-color: black;
 color: white;
 box-shadow: 5px 5px 5px black;
 }
-.bottom{
-font-size: 18px;
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center;
-margin-bottom:15px ;
-line-height: 40px;
-padding: 10px;
-background-color: rgb(24, 24, 53);
+.bottom {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom i {
+    margin-right: 8px;
+}
+
+.bottom p {
+    position: relative;
 }
 .bottom a{
     text-decoration: none;
+    color: white;
+}
+.bottom p::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    width: 0px;
+    height: 4px;
+    background-color: orange;
+    transition: all .3s;
+    right: 0;
+}
+
+.bottom p:hover::after {
+    width: 100%;
 }
 @media(max-width: 845px){
 .upleft{
