@@ -44,6 +44,7 @@ footer{
 }
 .up i{
     padding: 7px;
+    padding-left: 0;
 }
 .upleft{
     width: 30%;
