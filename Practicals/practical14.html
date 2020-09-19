@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-14</title>
+    <link rel="stylesheet" href="../CSS/practical14.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body bgcolor="lightgrey">
+    <h1>Form templates</h1>
+    <section>
+        <div class="box">
+            <form class="login1" action="#" name="form1" method="POST">
+            <div id="login">
+                <h2>Log in</h2>
+                <div id='icons'>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+            </div>
+            </div>
+            <div class="userinputs">
+            <input type="email" placeholder="Your email" name="emailid" required>
+            <input type="password" placeholder="Your password" name="password" required>
+            <p>Forget  <span style="font-weight: bold; margin-left: 2px;">Password?</span></p>
+        </div>
+        <div class="loginbutton">
+            <button type="submit">LOG IN</button>
+            <p>Don't have an account? <span style="font-weight: bold;" >Sign up</span></p>
+        </div>
+        </form>
+        </div>
+        <div class="box" ><h2 style="color: crimson; margin-bottom: 0px;">Sign up</h2>
+        <form class="login2" action="#" name="form2" method="POST">
+        
+            <div class="userinputs">
+                <input type="email" placeholder="Your email" name="emailid" required>
+                <input type="password" placeholder="Your password" name="password" required>
+                <p>Forget  <span style="font-weight: bold; margin-left: 2px;">Password?</span></p>
+                <br>
+                <div id="accept">
+                <input type="checkbox" name="terms" id="terms" required>
+                <label for="terms"> Accept the <span style="color: blue; font-weight: bold;">Terms and conditions</span></label>
+            </div>
+            </div>
+            <div class="loginbutton">
+                <button type="submit">SIGN UP</button>
+                <p>Have an account? <span style="font-weight: bold;" >Log in</span></p>
+            </div>
+            <div id="footer">
+                <div id='icons'>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+        </div>
+        </form>
+        </div>
+        <div class="box"><h2 style="color: blue;">Sign in</h2>
+            <form class="login3" action="#" name="form3" method="POST">
+            <div class="userinputs">
+            <input type="email" placeholder="Your Email" required name="emailid" id="emailid">
+            <input type="password" placeholder="Your Password" required name="password">
+            <p style="color: blue;">Forget <span style=" font-weight: bolder;">Password?</span></p>
+        </div>
+        <div class="loginbutton1">
+            <Button type="submit">SIGN IN</Button>
+            <p>or Sign in with</p>
+        </div>
+        <div class="icons">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+        </div></div></form>
+    </section>
+</body>
+</html>
