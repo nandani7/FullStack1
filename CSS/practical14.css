@@ -16,6 +16,7 @@ section{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 .box{
@@ -191,11 +192,6 @@ input[type="checkbox"]{
 }
 .login3 .icons a:hover{
     background-color: rgb(226, 223, 223);
-}
-@media(max-width: 1223px){
-    .box{
-        width: 80%;
-    }
 }
 @media(max-width: 451px){
     .box{
