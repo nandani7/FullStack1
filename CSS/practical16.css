@@ -5,12 +5,17 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #c56183, #52057b);
+    background-color: rgb(29, 29, 56);
     background-attachment: fixed;
     min-width: 360px;
 }
 
 h1 {
+    font-size: 40px;
+    background: linear-gradient(to left, #f32170, 
+                    #dd8043, #c046df, #eedd44); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
     color: white;
     text-align: center;
     margin-top: 60px;
@@ -90,7 +95,7 @@ input {
 }
 
 .complete {
-    background-color: green;
+    background-color: rgb(30, 184, 30);
 }
 
 .delete {
