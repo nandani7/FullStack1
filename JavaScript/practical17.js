@@ -37,6 +37,7 @@ function setGreeting() {
         greeting.innerHTML = "GOOD MORNING";
     } else if (h < 16) {
         document.body.style.backgroundImage = 'url("../img/afternoon.jpg")';
+        document.body.style.color = "white"
         greeting.innerHTML = "GOOD AFTERNOON";
     } else if(h < 20){
         document.body.style.backgroundImage = 'url("../img/evening.jpg")';
